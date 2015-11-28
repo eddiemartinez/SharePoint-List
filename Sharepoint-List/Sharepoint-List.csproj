@@ -35,6 +35,9 @@
     <ApplicationIcon>sharepoint.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.SharePoint">
+      <HintPath>..\..\..\SharePointBin\SharePointBin\bin\Debug\Microsoft.SharePoint.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.SharePoint.Client, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
       <HintPath>..\..\SharePointBin\SharePointBin\bin\Debug\Microsoft.SharePoint.Client.dll</HintPath>
     </Reference>
